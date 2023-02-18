@@ -13,13 +13,3 @@ def shorten_link(full_link,link_name):
 
 
 shorten_link(input('Enter the url which you want to shorten it :'),input('Enter the name which you want to give it :'))
-
-# import pyshorteners
-
-# link = input("enter the link : ")
-
-# shortener = pyshorteners.Shortener()
-
-# x = shortener.tinyurl.short(link)
-
-# print(x)
