@@ -6,3 +6,9 @@ Clone the repository and name the file as urlshortener directory containing setu
 
 git clone https://github.com/SanjanaReddy2005/URL_Shortener.git
 
+
+cd urlshortener
+
+pip install setuptools
+
+python setup.py install
