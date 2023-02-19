@@ -44,7 +44,7 @@ while a:
     short_url=shorten_link(long_url,name_url)
     print(short_url)
     URLlist.append(short_url)
-    a=input("do you still want to shorten any other url the press 1 otherwise 0 : ")
+    a=int(input("do you still want to shorten any other url the press 1 otherwise 0 : "))
 print(URLlist)
 
 outfile = open("theURLlist.txt","w")
@@ -52,6 +52,4 @@ for urls in URLlist :
      outfile.write(",".join(urls) + "\n")
 outfile.close()
 
-if __name__=="__shorten_link__":
-     shorten_link()
      
